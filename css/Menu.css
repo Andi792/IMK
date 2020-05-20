@@ -1,0 +1,113 @@
+nav {
+  text-align: left;
+}
+
+body {
+  background: #f0f0f0;
+  text-align: center;
+}
+.col-md-6 h1{
+  margin-bottom: 10%;
+  margin-top: 5%;
+}
+h1,h2{
+  font-family: 'Pacifico', cursive;
+}
+h2 {
+  margin-top: 3%;
+}
+.col-md-6 p{
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 100%;
+    margin-bottom: 25%;
+}
+
+.Header {
+  color: #f0f0f0;
+  padding: 7.5% 2.5%;
+  background-color: #52575d;
+}
+.Footer{
+  margin-top: 0;
+}
+
+.New {
+  color: #f0f0f0;
+  background-color: #52575d;
+  padding-bottom: 3%;
+}
+
+.New-Image {
+  width: 25%;
+  height: 50%;
+  border-radius: 100%
+}
+.Menu{
+  border: solid 1px;
+}
+img {
+  width: 40%;
+  height: 60%;
+  border-radius: 100%;
+}
+
+.Guillotine {
+  width: 35%;
+  height: 100%;
+  border-radius: 100%
+}
+
+.row {
+  margin: 2.5%;
+}
+
+hr {
+  margin-top: 10%;
+  border: 0;
+  height: 30px;
+  border-style: solid;
+  border-color: #8c8c8c;
+  border-width: 1px 0 0 0;
+  border-radius: 20px;
+}
+
+hr:before {
+  display: block;
+  content: "";
+  height: 3px;
+  margin-top: : -20 px;
+  border-style: solid;
+  border-color: #8c8c8c;
+  border-width: 0 0 1px 0;
+  border-radius: 20px;
+}
+
+@media (max-width: 599px) {
+  h1 {
+    font-size: 200%;
+  }
+
+  h2 {
+    font-size: 175%;
+  }
+
+  .row {
+    margin: 10%;
+  }
+
+  .Menu-Image {
+    margin-top: 15%;
+  }
+}
+
+@media (max-width: 699px) {
+  .New-Image {
+    width: 40%;
+}
+.Guillotine {
+  width: 45%;
+  padding-bottom: 10%;
+}
+  .row {
+    margin-top: 10%;
+  }
